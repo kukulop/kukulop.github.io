@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>贪吃蛇</title>
+		<style type="text/css">
+		    *{font-family: "微软雅黑";margin: 0;padding: 10;}
+			#page{
+				margin-left: auto;margin-right: auto;
+				margin-top: 20px;
+				float: left;
+				width: 900px;height: 700px;
+			}
+		    #canvas{
+		    	float: left;
+		    	width: 600px;
+		    	border: 1px solid black;
+		    	box-shadow: 0 0 10px black;
+		    }
+		    #te{font-weight: 800;}
+		    #mark{ color: red; }	
+		    button{
+		    	width: 50px;
+		    }
+		    a{text-decoration: none;}
+		</style>
+       <script type="text/javascript">
+       var BLOCK_SIZE = 20;
+       var BLOCK_ROW = 30;
+       var BLOCK_COW = 30;
+       
+       var c = null; //绘图对象
+       var count = 4;
+       var snake = [];
+       
+       var food = null;
+       var oMark = null;                //分数显示框
+       
+       var toGo = 3;
+       var interval = null;   //设置计时器
+       
+       var isPause = false;        //是否暂停
+       
+       function draw()
+       {
+       	c.clearRect(0,0,BLOCK_SIZE*BLOCK_COW,BLOCK_SIZE*BLOCK_ROW);
+       	//c.fillStyle = "#334411";
+       	//c.fillRect(0,0,BLOCK_SIZE*BLOCK_COW,BLOCK_SIZE*BLOCK_ROW);
+       	
+       	   //画出横线
+       	   for(var i=1;i<=BLOCK_COW;i++)
+       	   {
+       	   	   c.beginPath();
+       	   	   c.moveTo(0,i*BLOCK_SIZE);
+       	   	   c.lineTo(BLOCK_SIZE*BLOCK_COW,i*BLOCK_SIZE);
+       	   	   c.strokeStyle="gray";
+       	   	   c.stroke();
+       	   }
+       	   //画出竖线
+       	   for(var j=1;j<=BLOCK_ROW;j++)
+       	   {
+       	   	   c.beginPath();
+       	   	   c.moveTo(j*BLOCK_SIZE,0);
+       	   	   c.lineTo(j*BLOCK_SIZE,BLOCK_SIZE*BLOCK_ROW);
+       	   	   c.strokeStyle = "gray";
+       	   	   c.stroke();
+       	   }
+       	   
+       	   //画出蛇身
+       	   for(var i=0;i<snake.length;i++)
+       	   {
+       	   	    c.beginPath();
+       	   	    c.fillStyle = "red";
+       	   	    c.fillRect(snake[i].x,snake[i].y,BLOCK_SIZE,BLOCK_SIZE);
+       	   	    c.moveTo(snake[i].x,snake[i].y);
+       	   	    c.lineTo(snake[i].x+BLOCK_SIZE,snake[i].y);
+       	   	    c.lineTo(snake[i].x+BLOCK_SIZE,snake[i].y+BLOCK_SIZE);
+       	   	    c.lineTo(snakes[i].x, snakes[i].y + BLOCK_SIZE);
+       	   	    c.closePath();
+       	   	    c.strokeStyle = "red";
+       	   	    c.stroke();
+       	   	    
+       	   	    /*c.beginPath();
+                c.fillStyle = "green";
+                c.fillRect(snakes[i].x, snakes[i].y, BLOCK_SIZE, BLOCK_SIZE);
+                c.moveTo(snakes[i].x, snakes[i].y);
+                c.lineTo(snakes[i].x + BLOCK_SIZE, snakes[i].y);
+                c.lineTo(snakes[i].x + BLOCK_SIZE, snakes[i].y + BLOCK_SIZE);
+                c.lineTo(snakes[i].x, snakes[i].y + BLOCK_SIZE);
+                c.closePath();
+                c.strokeStyle = "white";
+                c.stroke();*/
+       	   }
+       	   
+       	   //画出食物
+       	   drawFood();
+       }
+       
+       function drawFood(){
+       	c.beginPath();
+       	c.fillStyle = "yellow";
+       	c.fillRect(choiceFood().x,choiceFood().y,BLOCK_SIZE,BLOCK_SIZE);
+       	c.moveTo(choiceFood().x,choiceFood().y);
+       	c.lineTo(choiceFood().x+BLOCK_SIZE,choiceFood().y);
+       	c.lineTo(choiceFood().x+BLOCK_SIZE,food.y+BLOCK_SIZE);
+       	c.lineTo(choiceFood().x,choiceFood().y+BLOCK_SIZE);
+       	c.closePath();
+       	c.strokeStyle = "yellow";
+       	c.stroke();
+       }
+       
+       function start(){
+       	for(i=0;i<count;i++)
+       	{
+       	   snake[i] = {x: i * BLOCK_SIZE, y: 0};
+       	 }
+       	    addFood();
+       	    //choiceFood();
+       	    drawFood();
+       	    draw();
+            oMark.innerHTML = 0;
+       }
+       
+      this.Food = function(i,j){
+       	this.x = i;
+       	this.y = j;
+       }
+       
+       function addFood(){
+       	        var x = Math.floor(Math.random() * (BLOCK_COW- 1)) * BLOCK_SIZE;
+                var y = Math.floor(Math.random() * (BLOCK_ROW- 1)) * BLOCK_SIZE;
+                food = new Food(x,y);
+       }
+       
+       //进行蛇身判断
+       function choiceFood(){
+       	for(var i=0;i<snake.length;i++)
+       	{
+       		//if(snake[i].x.equals(food.x)&&snake[i].y.equals(food.y))
+       		if(snake[i].x==food.x&&snake[i].y==food.y)
+       		{
+       			addFood();
+       		}
+       		return food;
+       	}
+       }
+       
+       //吃到食物判断
+       function eatFood(){
+       	if(snake[count-1].x==choiceFood().x&&snake[count-1].y==choiceFood().y)
+       	{
+       		oMark.innerHTML = (parseInt(oMark.innerHTML) + 1).toString();
+       		addSnake();
+       		addFood();
+       		choiceFood();
+       		drawFood();
+       	}
+       }
+       
+       //添加蛇身
+       function addSnake(){
+       	    count++;
+       	    snake.push({x:BLOCK_SIZE*BLOCK_COW,y:BLOCK_SIZE*BLOCK_ROW});
+       }
+       
+        //交互响应函数
+        function keydown(keyCode){
+                switch(keyCode){
+                        case 37: //左边
+                                if(toGo != 1 && toGo != 3)  toGo = 1;break;
+                        case 38: //上边
+                                if(toGo != 2 && toGo != 4)  toGo = 2;break;
+                        case 39: //右边
+                                if(toGo != 3 && toGo != 1)  toGo = 3;break;
+                        case 40: //下的
+                                if(toGo != 4 && toGo != 2)  toGo = 4;break;
+                        case 80: //开始/暂停
+                                if(isPause){
+                                        interval = setInterval(move,100);
+                                        isPause = false;
+                                        document.getElementById('pause').innerHTML = "Pause";
+                                }else{
+                                        clearInterval(interval);
+                                        isPause = true;
+                                        document.getElementById('pause').innerHTML = "Start";
+                                }
+                                break;
+                }
+        }
+       
+       //移动函数
+        function move(){
+            switch(toGo){
+                case 1: //左边
+                    snake.push({x: snake[count - 1].x - BLOCK_SIZE, y: snake[count - 1].y});
+                break;
+                case 2: //上边
+                    snake.push({x: snake[count - 1].x, y: snake[count - 1].y - BLOCK_SIZE});
+                break;
+                case 3: //右边
+                    snake.push({x: snake[count - 1].x + BLOCK_SIZE, y: snake[count - 1].y});
+                break;
+                case 4: //下边
+                    snake.push({x: snake[count - 1].x, y: snake[count - 1].y + BLOCK_SIZE});
+                break;
+                default:;
+            }
+            snake.shift();
+            eatFood();
+            isDie();
+            draw();
+       }
+        //进行死亡判断
+        function isDie(){
+        	//出界判定
+        	if(snake[count-1].x<-20||snake[count-1].x>BLOCK_COW*BLOCK_SIZE||snake[count-1].y<-20||snake[count-1].y>BLOCK_ROW*BLOCK_SIZE)
+        	{
+        		alert("game over");
+        		clearInterval(interval);
+        	}
+        	//蛇头撞到身体了
+        	for(var i=0;i<count-1;i++)
+        	{
+        		if(snake[count-1].x==snake[i].x&&snake[count-1].y==snake[i].y)
+        		{
+        			alert("game over");
+        		    clearInterval(interval);
+        		}
+        	}
+        }
+        
+        //启动函数
+        window.onload = function(){
+        	c = document.getElementById('mycanvas').getContext('2d');
+        	oMark = document.getElementById('mark');
+        	start();
+        	interval=setInterval(move,100);
+        	document.onkeydown = function(event){
+                var event = event || window.event;
+                keydown(event.keyCode);
+            }
+        }
+       </script>
+	</head>
+	<body>
+		<div id="page">
+			<div id="canvas">
+				<canvas id="mycanvas" height="600px" width="600px">
+				</canvas>
+			</div>
+		<div id="co">
+			<div id="te">得分是：<span id="mark"></span></div>
+			<div id="coer">
+				<table>
+                    <tr>
+                        <td></td>
+                        <td><button onclick="keydown(38);">上</button></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="keydown(37);">左</button></td>
+                        <td><button onclick="keydown(80);" id="pause">暂停</button></td>
+                        <td><button onclick="keydown(39);">右</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button onclick="keydown(40);">下</button></td>
+                        <td></td>
+                    </tr>
+                </table><a href="tanchishe.html">再玩一次</a>
+			</div>
+		</div>	
+		</div>
+	
+
+	</body>
+</html>
