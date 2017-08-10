@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>多媒体</title>
+		<style type="text/css">
+			video{
+				border:5px solid wheat;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<video width="600" height="300"></video>-->
+		<source src="media/Pain.flv" type="video/mp4"></source>
+		<source src="media/1.3gp" type="video/3gpp"></source>
+		<object width="600" height="300" type="application/x-shockwave-flash" data="myvideo.swf">
+			<param name="movice" value="media/Pain.flv" />
+			<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+		</object>
+		     当前浏览器不支持 video直接播放，点击这里下载视频：<a href="myvideo.webm">下载视频</a>
+	    </video>
+	    
+	    <h5>测试电影视频</h5>
+	    <br />
+	    <video
+	    	width="600px"
+	    	loop="true"
+	    	preload="auto"
+	    	controls="controls"
+	    	src="media/1.3gp"
+	    	autoplay="autoplay">
+	    </video>
+	    <br />
+	    <h1>测试音频标签</h1>
+	    <audio
+	    	loop="false"
+	    	preload="auto"
+	    	src="media/boys.mp3"
+	    	controls="controls">
+	    	</audio>
+	    	
+	    <h1>18718918569</h1>	
+	</body>
+</html>

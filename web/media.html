@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>media标签</title>
+		<style type="text/css">
+			video {
+				border: 1px solid black;
+			}
+		</style>
+		<script type="text/javascript" src="js/main.js" ></script>
+		<script type="text/javascript">
+		    function load()
+			{ 
+				//给标签添加监听
+			$("btnPlay").addEventListener('click', function ()
+			{ 
+				var video=$("video");
+			if(video.paused){ 
+				video.play(); 
+				}else{ 
+					video.pause(); 
+					} 
+				});
+			$("btnProp").addEventListener('click', function () {
+					var video=$("video");
+					console.log("currentSrc:"+video.currentSrc);
+					console.log("currentTime:"+video.currentTime);
+					console.log("duration:"+video.duration);
+					console.log("volume:"+video.volume);
+				});
+			$("btnvp").addEventListener('click', function () {
+					var vol = $("video").volume;
+					$("video").volume = vol>=1 ? 1 : vol+0.1;
+				});	 
+			}
+		</script>
+	</head>
+
+	<body onload="load()">
+		<h2>测试视频标签的dom操作</h2>
+		<input id="btnPlay" type="button" value="暂停/开始" />
+		<input id="btnProp" type="button" value="属性获取" />
+		<input id="btnvp" type="button" value="音量+" />
+		<input id="btnvm" type="button" value="音量-" />
+		<br /><br />
+		<video id="video" width="420" style="margin-top: 15px;">
+	    	<source src="http://w3school.com.cn/example/html5/mov_bbb.mp4" type="video/mp4"/>
+	    	<source src="http://w3school.com.cn/example/html5/mov_bbb.ogg" type="audio/ogg"/>
+	    		
+	    	<!--<source src="media/1.3gp" type="video/3gpp"></source>-->
+	        Your browser does not support HTML5 video.
+	    </video>
+
+		<h2>音乐</h2>
+		<audio loop="true" preload="auto" src="media/boys.mp3" controls="controls">
+	    </audio>
+	</body>
+
+</html>
