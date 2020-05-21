@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-21T06:18:29.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="5St-pspQBb00A6ziNktP" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-21T06:21:09.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="GhoG5hdmzn2V9rIiVcw6" version="13.0.9" type="github">
   <diagram id="XmfXhTiZD6NIz4OObXFa" name="Page-1">
     <mxGraphModel dx="1037" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,13 +19,27 @@
         <mxCell id="SLw_2JzoucQnl92RFOln-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-5" target="SLw_2JzoucQnl92RFOln-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-5" target="SLw_2JzoucQnl92RFOln-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-5" target="SLw_2JzoucQnl92RFOln-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="558" />
+              <mxPoint x="315" y="558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-5" target="SLw_2JzoucQnl92RFOln-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-5" value="审核操作" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-6" value="审核者" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="370" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SLw_2JzoucQnl92RFOln-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-9">
+        <mxCell id="SLw_2JzoucQnl92RFOln-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-9" target="SLw_2JzoucQnl92RFOln-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="240" as="targetPoint" />
           </mxGeometry>
@@ -48,14 +62,27 @@
         <mxCell id="SLw_2JzoucQnl92RFOln-12" value="审核状态&lt;br&gt;不通过" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="200" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-17" target="SLw_2JzoucQnl92RFOln-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-17" value="泛产业资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="510" width="100" height="35" as="geometry" />
+          <mxGeometry x="170" y="460" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-18" value="产业资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="620" width="100" height="35" as="geometry" />
+          <mxGeometry x="170" y="540" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-19" value="核心资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="720" width="100" height="35" as="geometry" />
+          <mxGeometry x="170" y="620" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-27" value="可重新发起审核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-25" target="SLw_2JzoucQnl92RFOln-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-25" value="审核状态&lt;br&gt;泛产业资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="197.5" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
