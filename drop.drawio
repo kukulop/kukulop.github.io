@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-21T06:21:09.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="GhoG5hdmzn2V9rIiVcw6" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-21T06:23:49.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="hBYic5HOx7EdpK6fcwhb" version="13.0.9" type="github">
   <diagram id="XmfXhTiZD6NIz4OObXFa" name="Page-1">
-    <mxGraphModel dx="1037" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1864" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,9 @@
         <mxCell id="SLw_2JzoucQnl92RFOln-5" value="审核操作" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-6" target="SLw_2JzoucQnl92RFOln-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-6" value="审核者" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="370" width="30" height="60" as="geometry" />
         </mxCell>
@@ -68,8 +71,14 @@
         <mxCell id="SLw_2JzoucQnl92RFOln-17" value="泛产业资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="460" width="100" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-18" target="SLw_2JzoucQnl92RFOln-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-18" value="产业资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="540" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-19" target="SLw_2JzoucQnl92RFOln-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-19" value="核心资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="620" width="100" height="35" as="geometry" />
@@ -83,6 +92,35 @@
         </mxCell>
         <mxCell id="SLw_2JzoucQnl92RFOln-25" value="审核状态&lt;br&gt;泛产业资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="197.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-28" target="SLw_2JzoucQnl92RFOln-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-32" value="可重新发起审核" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SLw_2JzoucQnl92RFOln-30">
+          <mxGeometry x="-0.4697" y="-28" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-28" value="审核状态&lt;br&gt;产业资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="197.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SLw_2JzoucQnl92RFOln-33" target="SLw_2JzoucQnl92RFOln-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-36" value="可重新发起审核" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SLw_2JzoucQnl92RFOln-35">
+          <mxGeometry x="-0.5795" y="-38" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-33" value="审核状态&lt;br&gt;核心资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="197.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SLw_2JzoucQnl92RFOln-38" value="审核状态&lt;br&gt;不通过原因" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
