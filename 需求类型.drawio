@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36">
+  <diagram name="第 1 页" id="lodmkxfGKZxQ3Z0LbGQG">
+    <mxGraphModel dx="74006" dy="49764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];bold=1;fontSize=20;fontFamily=Helvetica;fontColor=#001F3F;" value="数字园区企业服务平台 - 核心业务流转图" vertex="1">
+          <mxGeometry height="40" width="400" x="384.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#001F3F;strokeColor=#C5A059;fontSize=14;startSize=40;" value="【业务流一】大数据AI梯度培育流程" vertex="1">
+          <mxGeometry height="680" width="500" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-3" parent="c4AssSpWoBOF7QzRccaL-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="多源数据采集&lt;br&gt;（工商/经营/科创/知识产权）" vertex="1">
+          <mxGeometry height="60" width="200" x="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-4" parent="c4AssSpWoBOF7QzRccaL-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004A96;strokeColor=none;fontColor=#FFFFFF;" value="数据治理中台&lt;br&gt;（数据清洗、标签化处理）" vertex="1">
+          <mxGeometry height="60" width="200" x="150" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-5" parent="c4AssSpWoBOF7QzRccaL-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003A78;strokeColor=none;fontColor=#FFFFFF;" value="构建企业数字画像&lt;br&gt;（生成一企一档档案）" vertex="1">
+          <mxGeometry height="60" width="200" x="150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-6" parent="c4AssSpWoBOF7QzRccaL-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#002B5A;strokeColor=none;fontColor=#FFFFFF;" value="AI算法智能模型深度挖掘&lt;br&gt;（适配评价体系、适配度评分）" vertex="1">
+          <mxGeometry height="60" width="200" x="150" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-7" parent="c4AssSpWoBOF7QzRccaL-2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#C5A059;strokeColor=none;fontColor=#001F3F;fontStyle=1" value="精准锁定高潜力企业名单&lt;br&gt;（生成年度梯度培育库）" vertex="1">
+          <mxGeometry height="60" width="220" x="140" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-8" parent="c4AssSpWoBOF7QzRccaL-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=#C5A059;strokeWidth=2;fontColor=#FFFFFF;" value="驾驶舱看板可视化跟踪&lt;br&gt;（全生命周期进阶轨迹）" vertex="1">
+          <mxGeometry height="50" width="200" x="150" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-9" edge="1" parent="c4AssSpWoBOF7QzRccaL-2" source="c4AssSpWoBOF7QzRccaL-3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-4" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-10" edge="1" parent="c4AssSpWoBOF7QzRccaL-2" source="c4AssSpWoBOF7QzRccaL-4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-5" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-11" edge="1" parent="c4AssSpWoBOF7QzRccaL-2" source="c4AssSpWoBOF7QzRccaL-5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-6" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-12" edge="1" parent="c4AssSpWoBOF7QzRccaL-2" source="c4AssSpWoBOF7QzRccaL-6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-7" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-13" edge="1" parent="c4AssSpWoBOF7QzRccaL-2" source="c4AssSpWoBOF7QzRccaL-7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-8" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#002B5A;strokeColor=#C5A059;fontSize=14;startSize=40;" value="【业务流二】企业需求分级闭环流转流程" vertex="1">
+          <mxGeometry height="1390" width="520" x="2274" y="1249" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-37" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c4AssSpWoBOF7QzRccaL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-15" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="企业发起各类需求&lt;br&gt;（企业赋能平台端口）" vertex="1">
+          <mxGeometry height="60" width="200" x="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-32" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c4AssSpWoBOF7QzRccaL-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-16" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004A96;strokeColor=none;fontColor=#FFFFFF;" value="园区管理系统自动接收并分流" vertex="1">
+          <mxGeometry height="50" width="200" x="160" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-17" parent="c4AssSpWoBOF7QzRccaL-14" style="rhombus;whiteSpace=wrap;html=1;fillColor=#C5A059;strokeColor=none;fontColor=#001F3F;fontStyle=1" value="属地园区&lt;br&gt;能否解决？" vertex="1">
+          <mxGeometry height="80" width="140" x="190" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-34" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c4AssSpWoBOF7QzRccaL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-18" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003A78;strokeColor=none;fontColor=#FFFFFF;" value="园区线下运营服务站解决&lt;br&gt;（精准对接/政策指导/撮合）" vertex="1">
+          <mxGeometry height="60" width="180" x="40" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-33" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c4AssSpWoBOF7QzRccaL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-19" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#002B5A;strokeColor=none;fontColor=#FFFFFF;" value="跨层级一键上报系统&lt;br&gt;（政府统筹共性问题 / 社会化协同）" vertex="1">
+          <mxGeometry height="60" width="200" x="290" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-35" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c4AssSpWoBOF7QzRccaL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-20" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=none;fontColor=#FFFFFF;" value="需求办结与结果反馈" vertex="1">
+          <mxGeometry height="50" width="200" x="160" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-21" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=#C5A059;strokeWidth=2;fontColor=#FFFFFF;" value="企业在线服务评价机制&lt;br&gt;（形成服务优化闭环）" vertex="1">
+          <mxGeometry height="50" width="200" x="160" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-22" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-15" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-16" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-23" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-16" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-17" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-24" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-17" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#4CAF50;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-25" connectable="0" parent="c4AssSpWoBOF7QzRccaL-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4CAF50;fontSize=12;" value="能 (个性需求)" vertex="1">
+          <mxPoint x="15" y="-15" as="offset" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-26" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-17" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#F44336;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-27" connectable="0" parent="c4AssSpWoBOF7QzRccaL-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#F44336;fontSize=12;" value="不能 (共性/跨级问题)" vertex="1">
+          <mxPoint x="-15" y="-15" as="offset" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-28" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-18" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-20" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-29" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-19" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-20" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-30" edge="1" parent="c4AssSpWoBOF7QzRccaL-14" source="c4AssSpWoBOF7QzRccaL-20" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C5A059;strokeWidth=2;endArrow=block;" target="c4AssSpWoBOF7QzRccaL-21" />
+        <mxCell id="c4AssSpWoBOF7QzRccaL-36" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="平台受理&lt;br&gt;（系统审核）" vertex="1">
+          <mxGeometry height="60" width="200" x="160" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c4AssSpWoBOF7QzRccaL-38" parent="c4AssSpWoBOF7QzRccaL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="需求自动分派" vertex="1">
+          <mxGeometry height="60" width="200" x="160" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
