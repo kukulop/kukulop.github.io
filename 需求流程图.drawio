@@ -1,58 +1,86 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="vb6ZL-ZX4VsXJQmFNe6M">
-    <mxGraphModel dx="5896" dy="5208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8377" dy="4039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-1" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XfMiHaRPdCSVNwlrvG3B-17">
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-1" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XfMiHaRPdCSVNwlrvG3B-17" value=" ">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="企业发起各类需求&lt;br&gt;（企业赋能平台端口）" vertex="1">
-          <mxGeometry height="60" width="200" x="-2580" y="-2510" as="geometry" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="发起需求&lt;br&gt;（企业赋能平台端口）" vertex="1">
+          <mxGeometry height="60" width="200" x="-7300" y="-3470" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-3" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-5" value="">
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-47" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-37" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004A96;strokeColor=none;fontColor=#FFFFFF;" value="园区管理系统自动接收并分流" vertex="1">
-          <mxGeometry height="50" width="200" x="-2580" y="-2050" as="geometry" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="平台受理&lt;br&gt;（二级审核）" vertex="1">
+          <mxGeometry height="60" width="200" x="-7300" y="-3360" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#C5A059;strokeColor=none;fontColor=#001F3F;fontStyle=1" value="属地园区&lt;br&gt;能否解决？" vertex="1">
-          <mxGeometry height="80" width="140" x="-2550" y="-1960" as="geometry" />
-        </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-6" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-11">
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-46" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003A78;strokeColor=none;fontColor=#FFFFFF;" value="园区线下运营服务站解决&lt;br&gt;（精准对接/政策指导/撮合）" vertex="1">
-          <mxGeometry height="60" width="180" x="-2700" y="-1830" as="geometry" />
-        </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-8" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-11">
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-49" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-42" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#002B5A;strokeColor=none;fontColor=#FFFFFF;" value="跨层级一键上报系统&lt;br&gt;（政府统筹共性问题 / 社会化协同）" vertex="1">
-          <mxGeometry height="60" width="200" x="-2450" y="-1830" as="geometry" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-37" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#C5A059;strokeColor=none;fontColor=#001F3F;fontStyle=1" value="属地园区&lt;br&gt;能否解决？" vertex="1">
+          <mxGeometry height="80" width="140" x="-7270" y="-3250" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-10" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XfMiHaRPdCSVNwlrvG3B-12">
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#002B5A;strokeColor=none;fontColor=#FFFFFF;" value="跨层级一键上报系统&lt;br&gt;（政府统筹共性问题 / 社会化协同）" vertex="1">
+          <mxGeometry height="60" width="200" x="-6975" y="-3360" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-41" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-44" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=none;fontColor=#FFFFFF;" value="需求办结与结果反馈" vertex="1">
-          <mxGeometry height="50" width="200" x="-2580" y="-1720" as="geometry" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="需求对外展示&lt;br&gt;(需求大厅)" vertex="1">
+          <mxGeometry height="60" width="200" x="-7300" y="-3120" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=#C5A059;strokeWidth=2;fontColor=#FFFFFF;" value="企业在线服务评价机制&lt;br&gt;（形成服务优化闭环）" vertex="1">
-          <mxGeometry height="50" width="200" x="-2580" y="-1620" as="geometry" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-43" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 4 1 4;" target="XfMiHaRPdCSVNwlrvG3B-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-13" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#4CAF50;strokeWidth=2;endArrow=block;" target="XfMiHaRPdCSVNwlrvG3B-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20" y="-10" as="offset" />
-          </mxGeometry>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-51" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-14" connectable="0" parent="XfMiHaRPdCSVNwlrvG3B-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4CAF50;fontSize=12;" value="能 (个性需求)" vertex="1">
-          <mxPoint x="15" y="-15" as="offset" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="供应商抢单&lt;div&gt;（供应商报价+附件)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="-7300" y="-2990" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="平台受理&lt;br&gt;（系统审核）" vertex="1">
-          <mxGeometry height="60" width="200" x="-2580" y="-2380" as="geometry" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="供应商入驻审核" vertex="1">
+          <mxGeometry height="50" width="120" x="-7020" y="-3080" as="geometry" />
         </mxCell>
-        <mxCell id="XfMiHaRPdCSVNwlrvG3B-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="需求自动分派" vertex="1">
-          <mxGeometry height="60" width="200" x="-2580" y="-2250" as="geometry" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-57" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;dashed=1;" target="XfMiHaRPdCSVNwlrvG3B-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-60" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XfMiHaRPdCSVNwlrvG3B-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="企业/园区&lt;div&gt;选定供应商&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="-7300" y="-2870" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-61" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="形成项目合同交付&lt;div&gt;（合同时间，预期完成时间）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="-7000" y="-2870" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-66" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="XfMiHaRPdCSVNwlrvG3B-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="合同完成" vertex="1">
+          <mxGeometry height="60" width="200" x="-7000" y="-2750" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-65" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="需求状态更新" vertex="1">
+          <mxGeometry height="60" width="200" x="-7300" y="-2750" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-62" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XfMiHaRPdCSVNwlrvG3B-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=none;fontColor=#FFFFFF;" value="需求办结与结果反馈" vertex="1">
+          <mxGeometry height="50" width="200" x="-7150" y="-2560" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=#C5A059;strokeWidth=2;fontColor=#FFFFFF;" value="企业在线服务评价机制&lt;br&gt;（形成服务优化闭环）" vertex="1">
+          <mxGeometry height="50" width="200" x="-7150" y="-2460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
