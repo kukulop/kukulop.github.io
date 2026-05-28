@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="vb6ZL-ZX4VsXJQmFNe6M">
-    <mxGraphModel>
+    <mxGraphModel dx="5896" dy="5208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-1" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XfMiHaRPdCSVNwlrvG3B-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="企业发起各类需求&lt;br&gt;（企业赋能平台端口）" vertex="1">
+          <mxGeometry height="60" width="200" x="-2580" y="-2510" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-3" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004A96;strokeColor=none;fontColor=#FFFFFF;" value="园区管理系统自动接收并分流" vertex="1">
+          <mxGeometry height="50" width="200" x="-2580" y="-2050" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#C5A059;strokeColor=none;fontColor=#001F3F;fontStyle=1" value="属地园区&lt;br&gt;能否解决？" vertex="1">
+          <mxGeometry height="80" width="140" x="-2550" y="-1960" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-6" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003A78;strokeColor=none;fontColor=#FFFFFF;" value="园区线下运营服务站解决&lt;br&gt;（精准对接/政策指导/撮合）" vertex="1">
+          <mxGeometry height="60" width="180" x="-2700" y="-1830" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-8" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XfMiHaRPdCSVNwlrvG3B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#002B5A;strokeColor=none;fontColor=#FFFFFF;" value="跨层级一键上报系统&lt;br&gt;（政府统筹共性问题 / 社会化协同）" vertex="1">
+          <mxGeometry height="60" width="200" x="-2450" y="-1830" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-10" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XfMiHaRPdCSVNwlrvG3B-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=none;fontColor=#FFFFFF;" value="需求办结与结果反馈" vertex="1">
+          <mxGeometry height="50" width="200" x="-2580" y="-1720" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#001F3F;strokeColor=#C5A059;strokeWidth=2;fontColor=#FFFFFF;" value="企业在线服务评价机制&lt;br&gt;（形成服务优化闭环）" vertex="1">
+          <mxGeometry height="50" width="200" x="-2580" y="-1620" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-13" edge="1" parent="1" source="XfMiHaRPdCSVNwlrvG3B-5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#4CAF50;strokeWidth=2;endArrow=block;" target="XfMiHaRPdCSVNwlrvG3B-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-14" connectable="0" parent="XfMiHaRPdCSVNwlrvG3B-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4CAF50;fontSize=12;" value="能 (个性需求)" vertex="1">
+          <mxPoint x="15" y="-15" as="offset" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="平台受理&lt;br&gt;（系统审核）" vertex="1">
+          <mxGeometry height="60" width="200" x="-2580" y="-2380" as="geometry" />
+        </mxCell>
+        <mxCell id="XfMiHaRPdCSVNwlrvG3B-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#005BB5;strokeColor=none;fontColor=#FFFFFF;" value="需求自动分派" vertex="1">
+          <mxGeometry height="60" width="200" x="-2580" y="-2250" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
